@@ -214,6 +214,8 @@
 			<string>invalid.deprecated</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#E8E9E8</string>
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
@@ -228,7 +230,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#562D5600</string>
+				<string>#FF060026</string>
 				<key>foreground</key>
 				<string>#FD1224</string>
 			</dict>
@@ -451,6 +453,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string> css property-value color</string>
+			<key>scope</key>
+			<string>constant.other.color</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B8860B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>§ css !important</string>
+			<key>scope</key>
+			<string>keyword.other.important</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EE3A8C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>§ css additional-constants</string>
 			<key>scope</key>
 			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
@@ -582,7 +606,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#E1D4B9</string>
+				<string>#8B7765</string>
 			</dict>
 		</dict>
 		<dict>
@@ -608,7 +632,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E1D4B9</string>
+				<string>#8B795E</string>
 			</dict>
 		</dict>
 		<dict>
