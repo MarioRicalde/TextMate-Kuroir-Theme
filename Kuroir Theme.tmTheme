@@ -18,11 +18,11 @@
 				<key>caret</key>
 				<string>#202020</string>
 				<key>foreground</key>
-				<string>#000000</string>
+				<string>#363636</string>
 				<key>invisibles</key>
 				<string>#B4B4B49E</string>
 				<key>lineHighlight</key>
-				<string>#BAE51C59</string>
+				<string>#BAE51C40</string>
 				<key>selection</key>
 				<string>#8EBAE7A6</string>
 			</dict>
@@ -108,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#810004</string>
+				<string>#CD6839</string>
 			</dict>
 		</dict>
 		<dict>
@@ -118,10 +118,12 @@
 			<string>entity</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#E8E9E8</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#005273</string>
+				<string>#8B4726</string>
 			</dict>
 		</dict>
 		<dict>
@@ -134,7 +136,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B83126</string>
+				<string>#A52A2A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -145,25 +147,25 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B83126</string>
+				<string>#CD3700</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library Function</string>
 			<key>scope</key>
-			<string>support.function - variable</string>
+			<string>support.function - variable, keyword.other.special-method.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0055FF</string>
+				<string>#B03060</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Comparison</string>
 			<key>scope</key>
-			<string>keyword.operator.comparison</string>
+			<string>keyword.operator.comparison,keyword.operator.logical</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -180,7 +182,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#417E00</string>
+				<string>#639300</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,7 +195,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#005273</string>
+				<string>#104E8B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -204,7 +206,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#007DB3</string>
+				<string>#009ACD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -464,9 +466,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css !important</string>
+			<string>§ css !important / !default</string>
 			<key>scope</key>
-			<string>keyword.other.important</string>
+			<string>keyword.other.important,keyword.other.default </string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -565,7 +567,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#E9C062</string>
+				<string>#CD2626</string>
 			</dict>
 		</dict>
 		<dict>
@@ -578,7 +580,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#E9C062</string>
+				<string>#8B1A1A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -632,7 +634,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8B795E</string>
+				<string>#8F5B26</string>
 			</dict>
 		</dict>
 		<dict>
