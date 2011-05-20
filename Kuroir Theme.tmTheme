@@ -20,11 +20,11 @@
 				<key>foreground</key>
 				<string>#363636</string>
 				<key>invisibles</key>
-				<string>#B4B4B49E</string>
+				<string>#0000004A</string>
 				<key>lineHighlight</key>
-				<string>#BAE51C40</string>
+				<string>#CBDC2F38</string>
 				<key>selection</key>
-				<string>#8EBAE7A6</string>
+				<string>#F5AA0091</string>
 			</dict>
 		</dict>
 		<dict>
@@ -183,6 +183,17 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#639300</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>R Interpolation</string>
+			<key>scope</key>
+			<string>string.quoted.double.ruby source.ruby.embedded.source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#007E69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -499,17 +510,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>§ css constant.numeric</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9A5925</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>§ css keyword.unit</string>
+			<key>scope</key>
+			<string>keyword.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9F5E3D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>§ css keyword.unit</string>
+			<key>scope</key>
+			<string>source.scss support.function.misc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1B76B0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>⎇ diff.header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#0E2231</string>
+				<string>#82000E</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#F8F8F8</string>
+				<string>#F8BEBE</string>
 			</dict>
 		</dict>
 		<dict>
