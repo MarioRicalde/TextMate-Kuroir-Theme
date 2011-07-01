@@ -744,6 +744,19 @@
 				<string>#751012</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS Punctuation End Comments</string>
+			<key>scope</key>
+			<string>punctuation.definition.end</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DCDCDC8F</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>467560D0-6ACE-4409-82FD-4791420837AC</string>
