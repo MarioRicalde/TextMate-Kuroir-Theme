@@ -1,2 +1,2 @@
 ##Preview SCSS
-![Image](http://dl.dropbox.com/u/4651065/kuroir-theme.png)
+![Image](http://dl.getdropbox.com/u/4651065/screenshots/2011/9/13-2h8m29s.jpg)
