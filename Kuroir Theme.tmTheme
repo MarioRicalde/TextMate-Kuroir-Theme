@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Stanley Rost</string>
+	<string>Steve Lombardi via Stanley Rost</string>
 	<key>comment</key>
-	<string>Kuroir</string>
+	<string>Kuroir2</string>
 	<key>name</key>
-	<string>Kuroir Theme</string>
+	<string>Kuroir 2 Theme</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -18,7 +18,7 @@
 				<key>caret</key>
 				<string>#202020</string>
 				<key>foreground</key>
-				<string>#363636</string>
+				<string>#000000</string>
 				<key>invisibles</key>
 				<string>#0000004A</string>
 				<key>lineHighlight</key>
@@ -134,9 +134,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#A52A2A</string>
+				<string>#415A7E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -147,7 +147,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CD3700</string>
+				<string>#2176C7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -157,6 +157,8 @@
 			<string>support.function - variable, keyword.other.special-method.ruby</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#B03060</string>
 			</dict>
@@ -182,7 +184,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#639300</string>
+				<string>#B57B91</string>
 			</dict>
 		</dict>
 		<dict>
@@ -361,8 +363,10 @@
 			<string>meta.tag, meta.tag entity</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#005273</string>
+				<string>#2671AB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -372,8 +376,10 @@
 			<string>source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#005273</string>
+				<string>#2671AB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -389,18 +395,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css tag-name</string>
+			<string>css tag-name</string>
 			<key>scope</key>
 			<string>entity.name.tag.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B83126</string>
+				<string>#991263</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css:pseudo-class</string>
+			<string>css:pseudo-class</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.tag.pseudo-class</string>
 			<key>settings</key>
@@ -411,29 +417,29 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css#id</string>
+			<string>css#id</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.id,entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B8002D</string>
+				<string>#BE4545</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css.class</string>
+			<string>css.class</string>
 			<key>scope</key>
 			<string>meta.selector.css entity.other.attribute-name.class, entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B8012D</string>
+				<string>#E08956</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css property-name:</string>
+			<string>css property-name:</string>
 			<key>scope</key>
 			<string>support.type.property-name.css, meta.property-name</string>
 			<key>settings</key>
@@ -444,7 +450,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css @at-rule</string>
+			<string>css @at-rule</string>
 			<key>scope</key>
 			<string>meta.preprocessor.at-rule keyword.control.at-rule</string>
 			<key>settings</key>
@@ -455,7 +461,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css property-value;</string>
+			<string>css property-value;</string>
 			<key>scope</key>
 			<string>meta.property-value</string>
 			<key>settings</key>
@@ -477,7 +483,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css !important / !default</string>
+			<string>css !important / !default</string>
 			<key>scope</key>
 			<string>keyword.other.important,keyword.other.default </string>
 			<key>settings</key>
@@ -488,7 +494,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css additional-constants</string>
+			<string>css additional-constants</string>
 			<key>scope</key>
 			<string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
 			<key>settings</key>
@@ -499,7 +505,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css constructor.argument</string>
+			<string>css constructor.argument</string>
 			<key>scope</key>
 			<string>meta.constructor.argument.css</string>
 			<key>settings</key>
@@ -510,7 +516,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css constant.numeric</string>
+			<string>css constant.numeric</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
 			<key>settings</key>
@@ -521,7 +527,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css keyword.unit</string>
+			<string>css keyword.unit</string>
 			<key>scope</key>
 			<string>keyword.other</string>
 			<key>settings</key>
@@ -532,7 +538,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>§ css keyword.unit</string>
+			<string>css keyword.unit</string>
 			<key>scope</key>
 			<string>source.scss support.function.misc</string>
 			<key>settings</key>
@@ -543,7 +549,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>⎇ diff.header</string>
+			<string>diff.header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
@@ -558,7 +564,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>⎇ diff.deleted</string>
+			<string>diff.deleted</string>
 			<key>scope</key>
 			<string>markup.deleted</string>
 			<key>settings</key>
@@ -571,7 +577,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>⎇ diff.changed</string>
+			<string>diff.changed</string>
 			<key>scope</key>
 			<string>markup.changed</string>
 			<key>settings</key>
@@ -584,7 +590,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>⎇ diff.inserted</string>
+			<string>diff.inserted</string>
 			<key>scope</key>
 			<string>markup.inserted</string>
 			<key>settings</key>
@@ -757,8 +763,171 @@
 				<string></string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>--------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Delimiters</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BB4747</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP String</string>
+			<key>scope</key>
+			<string>meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B57B91</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Function</string>
+			<key>scope</key>
+			<string>meta.function-call.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#85A33D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>--------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Dictionary</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#643820</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Dictionary Value</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D7A100</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Dictionary Numerical Value</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value.json constant.numeric.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#629F9E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Attribute name</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#629F9E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS String</string>
+			<key>scope</key>
+			<string>string.quoted.double.js, string.quoted.single.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#79A316</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Function</string>
+			<key>scope</key>
+			<string>entity.name.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#488C45</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Embedded code general</string>
+			<key>scope</key>
+			<string>source.js.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#666</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Storage Type</string>
+			<key>scope</key>
+			<string>storage.type.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BB3182</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Support Class</string>
+			<key>scope</key>
+			<string>support.class.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#338FD5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Control Keyword</string>
+			<key>scope</key>
+			<string>keyword.control.js, keyword.operator.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A99904</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+
 	</array>
 	<key>uuid</key>
-	<string>467560D0-6ACE-4409-82FD-4791420837AC</string>
+	<string>93449750-6958-11e1-b86c-0800200c9a66</string>
 </dict>
 </plist>
