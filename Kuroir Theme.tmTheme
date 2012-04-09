@@ -767,6 +767,162 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>PHP Delimiters</string>
+      <key>scope</key>
+      <string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BB4747</string>
+        <key>fontStyle</key>
+        <string>bold</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP String</string>
+      <key>scope</key>
+      <string>meta.string-contents.quoted.single.php, meta.string-contents.quoted.double.php </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B57B91</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Function</string>
+      <key>scope</key>
+      <string>meta.function-call.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#85A33D</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>--------------------------------</string>
+      <key>settings</key>
+      <dict/>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSON Dictionary</string>
+      <key>scope</key>
+      <string>meta.structure.dictionary.json string.quoted.double.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#643820</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSON Dictionary Value</string>
+      <key>scope</key>
+      <string>meta.structure.dictionary.value.json string.quoted.double.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D7A100</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSON Dictionary Numerical Value</string>
+      <key>scope</key>
+      <string>meta.structure.dictionary.value.json constant.numeric.json</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#629F9E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>HTML Attribute name</string>
+      <key>scope</key>
+      <string>entity.other.attribute-name.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#629F9E</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS String</string>
+      <key>scope</key>
+      <string>string.quoted.double.js, string.quoted.single.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#79A316</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS Function</string>
+      <key>scope</key>
+      <string>entity.name.function.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#488C45</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS Embedded code general</string>
+      <key>scope</key>
+      <string>source.js.embedded.html</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#666</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS Storage Type</string>
+      <key>scope</key>
+      <string>storage.type.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BB3182</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS Support Class</string>
+      <key>scope</key>
+      <string>support.class.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#338FD5</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JS Control Keyword</string>
+      <key>scope</key>
+      <string>keyword.control.js, keyword.operator.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A99904</string>
+        <key>fontStyle</key>
+        <string>italic</string>
+      </dict>
+    </dict>
+
+    <dict>
+      <key>name</key>
       <string>Matching Pairs</string>
       <key>scope</key>
       <string>entity.name.class</string>
