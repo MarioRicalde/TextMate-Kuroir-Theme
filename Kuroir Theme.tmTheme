@@ -732,6 +732,21 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>Markup: Other</string>
+      <key>scope</key>
+      <string>markup.other</string>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#B1B3BA08</string>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#578BB3</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Log Entry</string>
       <key>scope</key>
       <string>meta.line.entry.logfile, meta.line.exit.logfile</string>
